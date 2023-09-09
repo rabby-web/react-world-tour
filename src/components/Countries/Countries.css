@@ -1,9 +1,14 @@
+.flags-container img{
+    width: 2rem;
+    height: 2rem;
+}
 .country-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     border-radius: 0.5rem;
 }
+
 .header-text{
     text-align: center;
     font-size: 3rem;
