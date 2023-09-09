@@ -1,6 +1,15 @@
 .country{
-    border: 2px solid gray;
+    border: 2px solid goldenrod;
     margin: 1rem;
     border-radius: 1rem;
     padding: 0.5rem;
+    background-color: #663399;
+    color: white;
+}
+.img-height{
+    height: 10rem;
+}
+.w-center{
+    display: flex;
+    justify-content: center;
 }
