@@ -20,7 +20,7 @@ const Country = ({country,handleVisitedCountry,handleVisitedFlags}) => {
             <p className='card-text'>Population: {population}</p>
             <p className='card-text'>Area: {area}</p>
             {visited ? 'I have Visited Country' : 'I want to Visit Country'}
-            <div>
+            <div className='btn-group'>
             <button onClick={handleVisited}>{visited ? 'Visited' : 'Going'}</button>
             <button onClick={() => handleVisitedCountry(country)}>Mark Visited</button>
             <button onClick={() => handleVisitedFlags(country.flags.png)}>Visited Flag</button>

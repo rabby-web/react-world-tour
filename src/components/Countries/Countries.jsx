@@ -24,10 +24,13 @@ const Countries = () => {
         setVisitedFlags(newVisitedFlags)
     }
 
+    // remove item from a array list in a state
+    // use filter to select all the elements expect the one you want to remove
+
     return (
         <div>
             <h3 className="header-text">React Countries Tour</h3>
-            <div>
+            <div className="visit-country">
                 <h5>Visited Country: {visitedCountries.length}</h5>
                 <ul>
                     {

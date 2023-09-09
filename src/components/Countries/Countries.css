@@ -1,12 +1,23 @@
 .flags-container img{
     width: 2rem;
     height: 2rem;
+    margin: 4px;
+}
+.flags-container{
+    background-color: #f34079;
+    padding: 0.5rem;
 }
 .country-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     border-radius: 0.5rem;
+}
+.visit-country{
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
 }
 
 .header-text{
