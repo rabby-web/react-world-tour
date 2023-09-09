@@ -6,8 +6,13 @@
     line-height: 1.8rem;
     border-radius: 20px;
     padding: 5px;
-    box-shadow: rgba(151, 65, 252, 0.2) 10px 25px 30px 75px;
-    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    box-shadow: rgba(171, 62, 175, 0.2) 10px 25px 30px 75px;
+    background-image: linear-gradient(144deg,#8c53b4, #af540a 50%,#00DDEB);
+   
+}
+.non-visited{
+  box-shadow: rgba(151, 65, 252, 0.2) 10px 25px 30px 75px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
 }
 .card-text{
     background: linear-gradient(180deg, #dbcdd6 0%, #ffffff 100%);
@@ -16,7 +21,7 @@
     -webkit-text-fill-color: transparent;
 }
 .img-height{
-    height: 10rem;
+    height: 15rem;
 }
 .w-center{
     display: flex;
