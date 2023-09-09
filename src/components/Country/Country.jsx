@@ -9,9 +9,10 @@ const Country = ({country}) => {
             <img className='img-height' src={flags.png} alt="" />
             </div>
             <hr />
-            <h3>Name: {name?.common}</h3>
-            <p>Population: {population}</p>
-            <p>Area: {area}</p>
+            <h3 className='card-text'>Name: {name?.common}</h3>
+            <p className='card-text'>Population: {population}</p>
+            <p className='card-text'>Area: {area}</p>
+            <button>Visited</button>
         </div>
     );
 };

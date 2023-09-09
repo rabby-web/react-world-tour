@@ -1,9 +1,17 @@
 .country-container{
-    background-color: #778899;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     border-radius: 0.5rem;
+}
+.header-text{
+    text-align: center;
+    font-size: 3rem;
+    padding: 5px;
+    background: linear-gradient(180deg, #e91293 20%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 @media (min-width: 556px) and (max-width: 996px) {
     .country-container{
